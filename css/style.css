@@ -1,0 +1,27 @@
+body h2 {
+    color: DarkBlue; 
+    text-shadow: 1px 1px 1px;
+}
+p {
+    color: DarkBlue;
+}
+
+
+
+a {
+    text-decoration:none;
+
+  }
+  footer a {
+    text-decoration: none; /* Aumenta a especificidade */
+}
+  /* Estilo para mudar a cor dos ícones */
+  .navbar-dark .icones a svg {
+    fill: white; /* Altere 'white' para qualquer cor desejada */
+  }
+  .navbar-dark .icones a:hover svg {
+    fill: #ccc; /* Altere para a cor desejada ao passar o mouse */
+  }
+  .logo{
+    border-radius: 50%;
+  }

@@ -1,0 +1,13 @@
+landing page - Site - blog
+-----------------------------
+
+Chock Cultural
+
+- Logo 
+- carrocel de fotos
+- links pra contato - no rodapé  
+- formulário para e-mail
+
+paleta 
+
+Branco, preto, azul piscina, azul escuro
