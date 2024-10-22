@@ -6,9 +6,8 @@ p {
     color: DarkBlue;
 }
 
-a {
+nav a {
     text-decoration:none;
-
   }
   footer a {
     text-decoration: none; /* Aumenta a especificidade */
