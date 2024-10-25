@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  /*background-image: url('../img/bg.gif');*/
+  background-image: url('../img/bg.gif');
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
