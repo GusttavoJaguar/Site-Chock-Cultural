@@ -1,18 +1,27 @@
 body{
   background-color: black;
-  
+  /*background-image: url('../img/bg.gif');*/
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center;
 }
 
 p {
+    
     color: rgb(66, 224, 209)
 }
+
+
+
 
 nav a {
     text-decoration:none;
   }
 
  .texto{
-  color: rgb(66, 224, 209);
+  
+  color: #42e0d1;
  }
 
  .card-title{
@@ -21,13 +30,105 @@ nav a {
 
  }
 
+ .video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
 
+.video-wrapper video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+}
  .form-label{
 
   color: rgb(66, 224, 209);
 
  }
 
+
+ .text-center{
+  transition: transform 0.5s;
+}
+
+.text-center:hover{
+  transform: scale(1.05);
+}
+.texto{
+  transition: transform 0.5s;
+}
+
+.texto:hover{
+  transform: scale(1.05);
+}
+
+
+.titulo{
+  transition: transform 0.5s;
+}
+
+.titulo:hover{
+  transform: scale(1.1);
+}
+
+
+.paragrafo{
+  font-size: 18px;
+  transition: transform 0.5s;
+}
+
+.paragrafo:hover{
+  transform: scale(1.05);
+}
+
+
+.carousel{
+  transition: transform 0.5s;
+}
+
+.carousel:hover{
+  transform: scale(1.05);
+}
+
+.mb-3{
+  transition: transform 0.5s;
+}
+
+.mb-3:hover{
+  transform: scale(1.05);
+}
+
+.btn{
+  transition: transform 0.5s;
+  
+  background-color: #42e0d1;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+
+}
+
+.idealizador{
+  transition: transform 0.5s;
+}
+
+.idealizador:hover{
+  transform: scale(1.5);
+}
+
+.bi{
+  transition: transform 0.5s;
+}
+
+.bi:hover{
+  transform: scale(1.5);
+}
 
   footer a {
     text-decoration: none; /* Aumenta a especificidade */
